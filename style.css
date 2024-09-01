@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+html, body, div, h1, h2, h3, p, a, img, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background: #dddddd;
+	color: black;
+	padding: 40px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1;
+}
+
+h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: 12px;
+	color: #777777;
+}
+
+a {
+	text-decoration: none;
+}
+
+li, ol, ul {
+	list-style: none;
+}
+
+/* ------------------------------------------------------------
+	Site Map Styles
+------------------------------------------------------------ */
+
+#interface {
+	padding: 50px;
+	background: white;
+	width: 1000px;
+	margin: auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+#avos{
+	margin-top: -240px;
+	padding: 10px 0;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 300px;
+  	height: 190px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
+	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */	
+}
+
+#avos h2{
+	padding: 10px 0;
+	text-align: center;
+}
+
+#col1 {
+	display: block;
+	float: none;
+	position: relative;
+	padding: 3px 0 3px 50px;
+}
+
+#col2 {
+	display: block;
+	background: url('images/lineL.png') 0px -100px no-repeat,
+				url('images/linev.png') 0px -100px repeat-y;
+	float: none;
+	padding: 3px 0 3px 250px;
+}
+
+#col3 {
+	display: block;
+	background: url('images/lineL.png') 0px -100px no-repeat,
+				url('images/linev.png') 0px -100px repeat-y;
+	float: none;
+	padding: 3px 0 3px 250px;
+}
+
+#col4 {
+	display: block;
+	background: url('images/lineL.png') 0px -100px no-repeat,
+				url('images/linev.png') 0px -100px repeat-y;
+	float: none;
+	padding: 3px 0 3px 250px;
+}
+
+#line {
+	margin-top: -10px;
+	margin-left: 140px;
+}
+
+#line2 {
+	margin-top: -9px;
+	margin-left: 90px;
+}
+
+#line3 {
+	margin-top: -9px;
+	margin-left: 90px;
+}
+
+.fb{
+	position: relative;
+	margin: -70px 0 0 110px;
+}
+
+li {
+	float: left;
+}
+
+li a {	
+	padding: 10px 0;
+	display: block;
+	width: 200px;
+  	height: 180px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;		
+	color: black;	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
+	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */	
+}
+
+li a p {
+	padding: 10px 0;
+}
+
+#vo a{background-color: #dddddd;}
+#vo a:hover {background-color: #ffffff;}
+
+#maria a{background-color: #61BD6C;}
+#maria a:hover {background-color: #41A75F;}
+
+#selestina a{background-color: #54ACD2;}
+#selestina a:hover {background-color: #3D8EB9;}
+
+#cleuza a{background-color: #9364B8;}
+#cleuza a:hover {background-color: #553982;}
+
+#lourdes a{background-color: #F7D964;}
+#lourdes a:hover {background-color: #F9C51B;}
+
+#jose a{background-color: #A28E83;}
+#jose a:hover {background-color: #75706B;}
+
+#francisco a{background-color: #EB6B56;}
+#francisco a:hover {background-color: #B8312F;}
+
+#antonio a{background-color: #1ABC9C;}
+#antonio a:hover {background-color: #00A785;}
+
+#josue a{background-color: #2C81C9;}
+#josue a:hover {background-color: #2969B0;}
+
+#aleixo a{background-color: #FBA026;}
+#aleixo a:hover {background-color: #F37934;}
+
+#expedito a{background-color: #E14938;}
+#expedito a:hover {background-color: #B8312F;}
+
+#rodape{
+	margin-top: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+
